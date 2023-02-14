@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+package platform;
+
+
+option go_package = "github.com/seaplane-io/seaplane-waypoint/builder";
+
+
+message Binary {
+  string location = 1;
+}
+
