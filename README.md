@@ -1,6 +1,6 @@
 # Waypoint Plugin Seaplane
 
-This folder contains the Waypoint-Seaplane plugin used to deploy your compute workloads on Seaplane through Waypoint. You will need to have Waypoint installed and configured on your machine. You can learn more about Waypoint [here](https://developer.hashicorp.com/waypoint/tutorials/get-started-docker/get-started-install).
+This repository contains the Waypoint-Seaplane plugin used to deploy your compute workloads on Seaplane through Waypoint. You will need to have Waypoint installed and configured on your machine. You can learn more about Waypoint [here](https://developer.hashicorp.com/waypoint/tutorials/get-started-docker/get-started-install).
 
 You can build the integration yourself by running `make && make install` in the root directory of the integration. Copy the compiled executable to your project root directory or the waypoint plugin directory.
 
