@@ -37,7 +37,7 @@ app "app" {
 
 variable "seaplane_tenant" {
   type        = string
-  description = "The tag for the built image in the Docker registry."
+  description = "Your Seaplane tenant ID, available in flight deck."
 }
 
 variable "tag" {
